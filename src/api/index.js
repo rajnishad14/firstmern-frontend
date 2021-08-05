@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const URL = 'https://fullmern-backend.herokuapp.com/posts'
+const URL = 'https://fullmern-backend.herokuapp.com'
 // 'http://localhost:5000'
 const API = axios.create({ baseURL: URL })
 API.interceptors.request.use((req) => {
